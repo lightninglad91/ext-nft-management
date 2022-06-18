@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+RARE = 'rare'
+COMMON = 'como'
+TOTAL_MINT = 1952
+CANISTER_ID = 'vrfyr-wiaaa-aaaal-aasiq-cai'
+PEM_FILE = '/Users/lightninglad/ic-projects/identities/poked_dev/poked_dev.pem'
+CLIENT_NET = 'https://ic0.app'
+LOG_FILE = 'airdrop.log'
+REPORT_FILE = 'airdrop.report'
+MAX_TEAM_MINT = 29
+TEAM_ADDRESS = '14f8baa65eb528bf5290d7618a05fe83b4da4ac4e7496d829f20d34d69167e3e'
+ASSET_FOLDER = '/Users/lightninglad/ic-projects/PetBots/Airdrop/Assets/Images/'
+THUMB_FOLDER = '/Users/lightninglad/ic-projects/PetBots/Airdrop/Assets/Images/Thumb/'
+ASSET_UPDATE_FOLDER = '/Users/lightninglad/ic-projects/TestBots/Update/Images/'
+THUMB_UPDATE_FOLDER = '/Users/lightninglad/ic-projects/TestBots/Update/Images/Thumb/'
+ASSET_EXT = '.jpg'
+COLLECTION = 'PetBots'
+PRINCIPAL = '6pbsk-5kqts-mrulc-qb3gr-gyh7c-n55ms-p773q-457bq-j4zbl-c3a5f-bae'
+ACCOUNTS_FILE = '/Users/lightninglad/ic-projects/PetBots/Airdrop/Accounts/accounts.txt'
+MINT_CORRECTION = 0
