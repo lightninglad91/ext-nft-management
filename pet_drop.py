@@ -12,13 +12,12 @@ else:
 
 def main() -> None:
     accounts = process_accounts()
-    #assets = bulk_upload(agent, nft_canister)
-    assets = bulk_update(agent, nft_canister)
-    #init_hash = hashlib.sha1(''.join(accounts).encode()).hexdigest()
-    #event_handler = EventHandler(init_hash)
-    #airdrop = Airdrop(agent, event_handler, accounts, assets)
-    #airdrop.drop()
-    #event_handler.write_report()
+    assets = bulk_upload(agent, nft_canister)
+    init_hash = hashlib.sha1(''.join(accounts).encode()).hexdigest()
+    event_handler = EventHandler(init_hash)
+    airdrop = Airdrop(agent, event_handler, accounts, assets)
+    airdrop.drop()
+    event_handler.write_report()
 
 if __name__ == '__main__':
     main()
